@@ -35,6 +35,6 @@ const reservationSchema = new mongoose.Schema({
     }
 })
 
-console.log(reservationSchema);
+// console.log(reservationSchema);
 
 export const Reservation=mongoose.model("Reservation",reservationSchema)

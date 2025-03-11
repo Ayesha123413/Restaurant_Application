@@ -7,7 +7,8 @@ const HeroSection = () => {
           <div className='banner'>
                   <div className='largeBox'>
                       <h1 className='title'>
-                      Delicious
+                          Delicious
+                          
                       </h1>
                   </div>
                   <div className='combined_boxes'>

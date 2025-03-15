@@ -7,6 +7,10 @@ import { useNavigate } from 'react-router-dom'
 const Reservation = () => {
     const [firstName,setFirstName]=useState("")
     const [lastName,setLastName]=useState("")
+    const [email,setEmail]=useState("")
+    const [date,setDate]=useState("")
+    const [time,setTime]=useState("")
+    const [phone,setPhone]=useState(0)
   return (
     <div>
       

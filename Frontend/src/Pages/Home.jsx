@@ -3,6 +3,7 @@ import HeroSection from "../Components/HeroSection"
 import Menu from "../Components/Menu"
 import Qualities from "../Components/Qualities"
 import WhoAreWe from "../Components/WhoAreWe"
+import Team from "../Components/Team"
 
 
 const Home = () => {
@@ -12,7 +13,8 @@ const Home = () => {
       <About />
       <Qualities />
       <Menu />
-      <WhoAreWe/>
+      <WhoAreWe />
+      <Team/>
     </>
   )
 }
